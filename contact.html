@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- <追記> -->
+    <link rel="stylesheet" href="./css/contact.css">
     <title>DIVE株式会社</title>
   </head>
   <body>
@@ -21,7 +23,7 @@
          </ul>
        </nav>
      </header>
-    <img src="./images/TOP.png" class="image_area">
+    <img src="./images/contact.png" class="image_area">
   <div class="wrapper clearfix">
     <aside class="side_menu">
       <nav>
@@ -31,37 +33,34 @@
           <li><a href="contact.html">お問い合わせ</a></li>
         </ul>
       </nav>
-      <p class="banner">
-        <a href="#">
-          <img src="./images/banner.png">
-        </a>
-      </p>
     </aside>
     <article class="content">
-      <h2>新着情報</h2>
-      <div class="news">
-        <ul>
-          <li>Webサイトをリニューアルしました!</li>
-          <li>Webサイトをリニューアルしました!</li>
-          <li>Webサイトをリニューアルしました!</li>
-          <li>Webサイトをリニューアルしました!</li>
-          <li>Webサイトをリニューアルしました!</li>
-          <li>Webサイトをリニューアルしました!</li>
-          <li>Webサイトをリニューアルしました!</li>
-          <li>Webサイトをリニューアルしました!</li>
-          <li>Webサイトをリニューアルしました!</li>
-          <li>Webサイトをリニューアルしました!</li>
-          <li>Webサイトをリニューアルしました!</li>
-        </ul>
-      </div>
-      <div class="banner_content">
-        <p>
-          <a href="#"><img src="./images/banner02.png"></a>
-        </p>
-        <p>
-          <a href="#"><img src="./images/banner03.png"></a>
-        </p>
-      </div>
+      <form action="contact">
+        <table class="contact">
+          <tr>
+            <th align="right">お名前</th>
+            <td><input class="input_form" type="text"> </td>
+          </tr>
+          <tr>
+            <th align="right">メールアドレス</th>
+            <td><input class="input_form" type="text"></td>
+          </tr>
+          <tr>
+            <th align="right">性別</th>
+            <td>
+              <input type= "radio">男
+              <input type= "radio">女
+            </td>
+         </tr>
+         <tr>
+           <th align="right">お問い合わせ内容</th>
+           <td><input class="input_form" type="text"></td>
+         </tr>
+       </table>
+        <div class="botton">
+           <input class="submit_button" type="submit" value="送信">
+        </div>
+      </form>
     </article>
   </div>
     <footer class="footer">

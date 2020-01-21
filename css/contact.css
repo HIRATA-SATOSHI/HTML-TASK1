@@ -1,0 +1,24 @@
+th  {
+  height: 7rem;
+  width: 150px;
+}
+
+td .input_form {
+  width: 480px;
+}
+
+.botton {
+  text-align: center;
+}
+
+.submit_button {
+  background-color: #00FFFF;
+  color: #fff;
+  border: none;
+  font-size: 1.75rem;
+}
+
+
+.botton:hover {
+  opacity: 0.5;
+}
